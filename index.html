@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <div id="main-ctn">
+            
+            <div id="gradient">
+                <h2>Metric/Imperial unit conversion</h2>
+                <!-- <h1 id="number-input">20</h1> -->
+                <input type="number" id="number" value=""></input>
+                <button id="submit" onclick="calculate()">Convert</button>
+            <div>
+                
+            <div id="msr-cont">
+            
+                <div id="conversions-length">
+                    <h3 id="length">Length (Meter/Feet)</h3>
+                    <p id="pLength">
+                        <span id="lgth-num"></span> meters  = <span id="lgth-feet"></span> feet | <span id="feet"></span> feet = <span id="meters"></span> meters</p>
+                </div>
+                
+                <div id="conversions-weight">
+                    <h3 id="weight">Volume (Liters/Gallons)</h3>
+                    <p id="pWeight">
+                        <span id="wone"></span> liters = <span id="wtwo"></span> gallons | <span id="wthree"></span> gallons = <span id="wfour"></span> liters
+                    </p>
+                </div>
+                
+                <div id="conversions-mass">
+                    <h3 id="mass">Mass (Kilograms/Pounds)</h3>
+                    <p id="mass-p">
+                        <span id="mone"></span> kilos = <span id="mtwo"></span> pounds | <span id="mthree"></span> pounds = <span id="mfour"></span> kilos</p>
+                </div>
+            
+            </div>
+        
+        </div>
+        
+        <script src="index.js"></script>
+        
+    </body>
+</html>
